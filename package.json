@@ -1,0 +1,24 @@
+{
+  "name": "graphql-apollo-basic-starter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "keywords": [],
+  "author": "Ammar Jabakji",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.9.9",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "mongoose": "^5.7.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.4"
+  }
+}
